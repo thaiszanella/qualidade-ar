@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "S001",
+    "modelo": "AirMonitor-200",
+    "descricao": "Sensor ambiental do centro",
+    "localizacao": {
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "latitude": -27.1009,
+      "longitude": -52.6157
+    },
+    "ativo": true,
+    "grandezas": ["PM2.5", "PM10", "CO2", "temperatura", "umidade"]
+  },
+  {
+    "_id": "S002",
+    "modelo": "AirMonitor-200",
+    "descricao": "Sensor ambiental da zona norte",
+    "localizacao": {
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "latitude": -27.0748,
+      "longitude": -52.624
+    },
+    "ativo": true,
+    "grandezas": ["PM2.5", "PM10", "CO2", "temperatura", "umidade"]
+  },
+  {
+    "_id": "S003",
+    "modelo": "AirMonitor-200",
+    "descricao": "Sensor ambiental do centro",
+    "localizacao": {
+      "cidade": "Florianópolis",
+      "uf": "SC",
+      "latitude": -27.5954,
+      "longitude": -48.548
+    },
+    "ativo": true,
+    "grandezas": ["PM2.5", "PM10", "CO2", "temperatura", "umidade"]
+  },
+  {
+    "_id": "S004",
+    "modelo": "AirMonitor-200",
+    "descricao": "Sensor ambiental da Lagoa da Conceição",
+    "localizacao": {
+      "cidade": "Florianópolis",
+      "uf": "SC",
+      "latitude": -27.605,
+      "longitude": -48.47
+    },
+    "ativo": true,
+    "grandezas": ["PM2.5", "PM10", "CO2", "temperatura", "umidade"]
+  },
+  {
+    "_id": "S005",
+    "modelo": "AirMonitor-200",
+    "descricao": "Sensor ambiental do centro",
+    "localizacao": {
+      "cidade": "Itajaí",
+      "uf": "SC",
+      "latitude": -26.9078,
+      "longitude": -48.6619
+    },
+    "ativo": true,
+    "grandezas": ["PM2.5", "PM10", "CO2", "temperatura", "umidade"]
+  },
+  {
+    "_id": "S006",
+    "modelo": "AirMonitor-200",
+    "descricao": "Sensor ambiental da zona portuária",
+    "localizacao": {
+      "cidade": "Itajaí",
+      "uf": "SC",
+      "latitude": -26.9,
+      "longitude": -48.65
+    },
+    "ativo": true,
+    "grandezas": ["PM2.5", "PM10", "CO2", "temperatura", "umidade"]
+  }
+]
