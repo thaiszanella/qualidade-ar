@@ -26,7 +26,6 @@ cd codigo
 python 01_seed_sensores.py
 python 02_gerar_medicoes.py
 python 03_processar_agregacao_redis.py
-python testes/test_dados_novos.py     # usa banco QualidadeAr_teste e Redis db 3
 ```
 
 Consultas e agregações: `python consultas.py -h` e `python agregacoes.py -h`.
