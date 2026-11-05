@@ -10,7 +10,7 @@ Bancos de Dados e Novas Tecnologias — Unochapecó (Prof. Monica Tissiani De To
 ## Estrutura
 
 Pasta: codigo
-Conteúdo: Scripts Python, `testes/` e `dados/sensores.json`
+Conteúdo: Scripts Python e `dados/sensores.json`
 
 Pasta: docs
 Conteúdo: Relatório técnico e diagrama de arquitetura

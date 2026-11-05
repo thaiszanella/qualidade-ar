@@ -1,8 +1,8 @@
 """
 Consultas na coleção Medicoes.
 
-As funções deste módulo são reaproveitadas pelo menu.
-Também dá para usar direto pela linha de comando:
+As funções deste módulo são reaproveitadas por agregacoes.py.
+Uso pela linha de comando:
 
     python consultas.py sensores
     python consultas.py sensor S001 --inicio 2026-10-20T10:00Z --fim 2026-10-20T11:00Z
@@ -24,7 +24,7 @@ CAMPOS = ["pm25", "pm10", "co2", "temperatura", "umidade"]
 
 # Critério de medição válida: poluentes numéricos e não negativos.
 # Barra tanto valores ausentes (None) quanto códigos de erro (-999).
-# Será reaproveitado nas agregações da Fase 4.
+# Reaproveitado nas agregações (agregacoes.py).
 FILTRO_VALIDO = {c: {"$type": "number", "$gte": 0} for c in ("pm25", "pm10", "co2")}
 
 def parse_data(texto: str) -> datetime:

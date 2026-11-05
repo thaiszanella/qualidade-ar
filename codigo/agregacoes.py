@@ -1,7 +1,7 @@
 """
 Agregações e sumarização com o pipeline de agregação do MongoDB.
 
-As funções deste módulo são reaproveitadas pela sincronização com o Redis e pelo menu. Uso pela linha de comando:
+Uso pela linha de comando:
 
     python agregacoes.py sensor S001 --inicio 2026-10-20T10:00Z
     python agregacoes.py horario-sensor --sensor S001 --inicio 2026-10-20T00:00Z --fim 2026-10-21T00:00Z
